@@ -14,14 +14,14 @@ const links = [
     label: "Features",
     href: "/#Features",
   },
-  {
-    label: "Pricing",
-    href: "/#Pricing",
-  },
-  {
-    label: "Testimonials",
-    href: "/#Testimonials",
-  },
+  // {
+  //   label: "Pricing",
+  //   href: "/#Pricing",
+  // },
+  // {
+  //   label: "Testimonials",
+  //   href: "/#Testimonials",
+  // },
   {
     label: "FAQ",
     href: "/#FAQ",
@@ -42,7 +42,7 @@ const Header = () => {
           >
             <Image
               alt="Logo"
-              src="/logo.svg"
+              src="/logo.png"
               className="w-8 h-8"
               width={32}
               height={32}
@@ -71,7 +71,6 @@ const Header = () => {
         <div className="hidden md:flex items-center gap-x-6">
           <HeaderLinks />
           <ThemedButton />
-          <LangSwitcher />
         </div>
 
         <div className="md:hidden">
@@ -96,7 +95,7 @@ const Header = () => {
                     >
                       <Image
                         alt={siteConfig.name}
-                        src="/logo.svg"
+                        src="/logo.png"
                         className="w-8 h-8"
                         width={32}
                         height={32}

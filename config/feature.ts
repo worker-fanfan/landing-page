@@ -1,9 +1,11 @@
 import { LucideIcon, MagnetIcon } from "lucide-react";
 import { IconType } from "react-icons";
-import { BsGithub } from "react-icons/bs";
+import { BsDatabaseFill, BsFillFilePersonFill, BsFillHouseFill, BsFillPersonPlusFill, BsGithub } from "react-icons/bs";
 import { FaToolbox } from "react-icons/fa";
 import { FaEarthAsia, FaMobileScreenButton } from "react-icons/fa6";
 import { MdCloudUpload } from "react-icons/md";
+import { PiBuildingsFill } from "react-icons/pi";
+import { RiBillFill } from "react-icons/ri";
 
 export const FEATURES_EN = [
   {
@@ -45,34 +47,34 @@ export const FEATURES_EN = [
 
 export const FEATURES_ZH = [
   {
-    title: "开源优势",
-    content: "完全免费，提供丰富的自定义选项。",
-    icon: BsGithub,
+    title: "企业管理",
+    content: "集中管理公司信息、员工信息、组织架构等，方便管理人员进行权限分配和工作安排。",
+    icon: PiBuildingsFill,
   },
   {
-    title: "响应式设计",
-    content: "精心设计的模板，确保在任何设备上都能优化显示。",
-    icon: FaMobileScreenButton,
+    title: "房源管理",
+    content: "建立房源档案，包括房屋信息、图片、房型、价格、租赁状态等，方便发布和管理房源信息。",
+    icon: BsFillHouseFill,
   },
   {
-    title: "易于定制",
-    content: "轻松更改颜色、字体和布局，无需任何编码知识。",
-    icon: FaToolbox,
+    title: "业主管理",
+    content: "建立业主档案，包括业主信息、联系方式、房屋信息等，方便物业公司维护业主信息。",
+    icon: BsFillFilePersonFill,
   },
   {
-    title: "SEO优化",
-    content: "构建模板时考虑到搜索引擎优化，增强网站的可发现性。",
-    icon: MagnetIcon,
+    title: "租客管理",
+    content: "建立租客档案，包括租客信息、联系方式、房屋信息、租赁合同等，方便管理租客信息。",
+    icon: BsFillPersonPlusFill,
   },
   {
-    title: "一键部署",
-    content: "与领先的网站托管服务紧密集成，实现即时网站发布。",
-    icon: MdCloudUpload,
+    title: "账单管理",
+    content: "生成各类账单，包括物业费账单、水电费账单等，并提供线上缴费功能，方便业主和住户缴纳费用。",
+    icon: RiBillFill,
   },
   {
-    title: "全球化支持",
-    content: "支持多种语言，让你的网站吸引全球受众。",
-    icon: FaEarthAsia,
+    title: "数据分析",
+    content: "提供数据分析功能，包括业主结构分析、租金收入分析、维修需求分析等，帮助企业了解经营状况，做出更明智的决策。",
+    icon: BsDatabaseFill,
   },
 ];
 
